@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(32, 31, 31);
+}
+
+#plate {
+    width: 40%;
+    display: block;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#rice {
+    width: 20%;
+    display: block;
+    margin-left: 57%;
+    margin-top: -28%;
+}
+
+.container {
+   
+}
