@@ -8,9 +8,39 @@
     <title>Odin Challenge</title>
 </head>
 <body>
+    <a href="https://www.theodinproject.com/about" target="_blank"><img id="odin" src="/imgs/theOdinProject.png"></a>
+    <div class="containerHead">
     <div class="container">
     <img id="plate" src="/imgs/plate.png">
-    <img id="rice" src="/imgs/rice.png">
+    <h1 id="riceText">Jasmine Rice <a href="">Recipe</a></h1>
+    <img class="" id="rice" src="/imgs/rice.png">
+    <h1 id="chickenText">Crispy Fried Chicken <a href="">Recipe</a></h1>
+    <img id="chicken" src="/imgs/chicken_wings.png">
+    <h1 id="greenBeanText">Buttered Green Beans <a href="">Recipe</a></h1>
+    <img id="greenBeans" src="/imgs/green_beans.png">
     </div>
+    </div>
+    <img id="bg" src="/imgs/table.jpeg">
+    
+
+    <script>
+        const chickenImg = document.getElementById("chicken");
+        const chickenTxt = document.getElementById("chickenText");
+        const riceImg = document.getElementById("rice");
+        const riceTxt = document.getElementById("riceText");
+        const greenBeanImg = document.getElementById("greenBeans");
+        const greenBeanTxt = document.getElementById("greenBeanText");
+
+        chickenImg.addEventListener("click", function(){chickenTxt.style.opacity = "1"});
+        chickenImg.addEventListener("click", function(){chickenTxt.style.zIndex = "5"});
+        chickenImg.addEventListener("click", function(){chickenImg.style.width = "33%"});
+        riceImg.addEventListener("click", function(){riceTxt.style.opacity = "1"});
+        riceImg.addEventListener("click", function(){riceTxt.style.zIndex = "5"});
+        riceImg.addEventListener("click", function(){riceImg.style.width = "20%"});
+        greenBeanImg.addEventListener("click", function(){greenBeanTxt.style.opacity = "1"});
+        greenBeanImg.addEventListener("click", function(){greenBeanTxt.style.zIndex = "5"});
+        greenBeanImg.addEventListener("click", function(){greenBeanImg.style.width = "30%"});
+
+    </script>
 </body>
 </html>
