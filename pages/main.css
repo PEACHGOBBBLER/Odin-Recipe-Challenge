@@ -1,3 +1,125 @@
 body {
     background-color: rgb(53, 50, 50)
 }
+
+.content {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(223, 223, 223);
+    
+}
+
+#odin {
+    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Impact, sans-serif;
+    color: rgb(208, 147, 72);
+    text-align: center;
+    text-shadow: 1px 1px black;
+    margin-top: ;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: Impact, sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+#chickenVid {
+    display: block;
+    margin-left: auto;
+    width: 83%;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    font-size: 50px;
+    font-family: Impact, sans-serif;
+    text-decoration: underline;
+    margin-left: 8%;
+}
+
+ul {
+    font-size: 40px;
+    font-family: Impact: sans-serif;
+    margin-left: 8%;
+}
+
+#riceVid {
+    display: block;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#greenBeanVid {
+    display: block;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+h4 {
+
+    color: Black;
+    font-family: Century, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    ul {
+        font-size: 30px;
+    }
+    iframe {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    ul {
+        font-size: 20px;
+    }
+    iframe {
+        height: 250px;
+    }
+}
