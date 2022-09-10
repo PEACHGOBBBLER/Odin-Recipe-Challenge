@@ -34,6 +34,7 @@ body {
     transform: rotate(40deg);
     z-index: 3;
 
+
     
 
 }
@@ -63,6 +64,7 @@ body {
     right: 0;
     top:5%;
     background-color: rgba(36, 31, 31, 0.7);
+    z-index: 10;
 }
 
 
@@ -110,4 +112,8 @@ h1 {
 a {
     text-decoration: none;
     color: rgb(208, 147, 72)
+}
+
+@keyframes fade {
+    from {opacity: 0} to {opacity: 1};
 }
