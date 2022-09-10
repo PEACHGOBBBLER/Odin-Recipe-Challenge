@@ -18,6 +18,16 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: 5%;
+    background-color: rgba(36, 31, 31, 0.7);
+    
+}
+
+
+#arrow{
+    width: 8%;
+    position: fixed;
+    top: 48%;
+    right: 1.2%;
     
 }
 
