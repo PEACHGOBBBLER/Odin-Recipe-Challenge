@@ -71,12 +71,12 @@ body {
 h1 {
     display: block;
     position: absolute;
-    font-size: 25px;
+    font-size: 1.5em;
     color: white;
     background-color: rgba(36, 31, 31, 1);
     padding: 15px;
     border-radius: 15px;
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     
 }
 
